@@ -4,7 +4,7 @@ import { Outlet } from 'react-router';
 const MainLayout = () => {
     return (
         <div>
-              <h1>heello this is fixed content</h1>
+              <h1>heello this is fixed content here!</h1>
               
               <Outlet></Outlet>
         </div>
