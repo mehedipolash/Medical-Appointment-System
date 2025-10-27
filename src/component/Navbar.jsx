@@ -5,6 +5,8 @@ import logo from "../assets/logo.png";
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm mx-auto px-8 md:px-12 lg:px-16 xl:px-24">
+
+
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -12,6 +14,8 @@ const Navbar = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
             </svg>
           </div>
+
+
 
           <ul tabIndex="-1" className="menu menu-sm dropdown-content z-1 mt-3 w-52 p-2 bg-base-100 shadow rounded-box">
             <li><NavLink to="/" className={({ isActive }) => isActive ? "text-blue-700" : "text-black"}>Home</NavLink></li>
@@ -21,8 +25,9 @@ const Navbar = () => {
           </ul>
         </div>
 
+
         <div className="flex items-center gap-2">
-          <img src={logo} alt="Phudu Logo" className="h-8 w-8 object-contain" />
+          <img src={logo} alt="Phudu Logo" className="hidden lg:flex h-8 w-8 object-contain" />
           <Link to="/" className="font-bold text-xl text-gray-900">Phudu</Link>
         </div>
       </div>
