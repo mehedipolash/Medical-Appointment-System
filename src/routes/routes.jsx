@@ -1,21 +1,33 @@
 import { createBrowserRouter } from "react-router";
 import MainLayout from "../layouts/MainLayout";
+import ErrorPage from "../pages/ErrorPage";
+import Home from "../pages/Home";
+import MyBookings from "../pages/MyBookings";
+import Blogs from "../pages/Blogs";
+import ContactUs from "../pages/ContactUs";
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainLayout></MainLayout>, 
+    element: <MainLayout></MainLayout>,
+    errorElement: ErrorPage,
     children: [
       {
-        path: "test",          
-        element: <p className="bg-amber-200">Hello</p>, 
+        index: true,
+        element: <Home></Home>,
       },
       {
-        path: "test1",          
-        element: <p className="bg-orange-500">Hello1</p>, 
-      }
+        path: "/mybookings",
+        element: <MyBookings></MyBookings>,
+      },
+      {
+        path: "/blogs",
+        element: <Blogs></Blogs>,
+      },
+      {
+        path: "/contactus",
+        element: <ContactUs></ContactUs>,
+      },
     ],
   },
 ]);
-
-
