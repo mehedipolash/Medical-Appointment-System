@@ -1,10 +1,12 @@
 import React from "react";
-import { useParams, useLoaderData } from "react-router";
+import { useParams, useLoaderData, useNavigate } from "react-router"; 
 import Button from "../component/ui/Button";
+import { addAppointment } from "../utilities";
 
 const DoctorDetails = () => {
   const data = useLoaderData();
   const { id } = useParams();
+  const navigate = useNavigate(); 
   const singleDoctor = data.find((doctor) => doctor.id === parseInt(id));
 
   const {
@@ -17,6 +19,12 @@ const DoctorDetails = () => {
     registrationNumber,
     available_days
   } = singleDoctor;
+
+  const handleAppointment = () => {
+    addAppointment(singleDoctor);
+    // Redirect to MyBookings page after booking
+    navigate('/mybookings');
+  };
 
   return (
     <>
@@ -138,7 +146,7 @@ const DoctorDetails = () => {
 
         {/* Book Appointment Button */}
         <div className="max-w-6xl mx-auto px-4 mb-8 flex justify-center">
-          <Button label={'Book appointment'} />
+          <Button onClick={handleAppointment} label={'Book appointment'} />
         </div>
       </div>
     </>

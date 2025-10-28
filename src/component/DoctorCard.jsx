@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router"; 
+import { MdDeleteForever } from "react-icons/md";
 
-const DoctorCard = ({ doctor }) => {
+
+const DoctorCard = ({ doctor,deletable,handleDelete }) => {
   const {
     id,
     name,
@@ -10,6 +12,7 @@ const DoctorCard = ({ doctor }) => {
     speciality,
     details,
     experience,
+    fee,
     registrationNumber,
   } = doctor;
 
@@ -48,6 +51,16 @@ const DoctorCard = ({ doctor }) => {
           </Link>
         </div>
       </div>
+
+      {deletable && (
+  <button
+    onClick={() => handleDelete(id)} 
+    className="absolute -top-2 -right-2 bg-white rounded-full shadow-md 
+               hover:bg-red-600 p-1 transition-all duration-200 cursor-pointer"
+  >
+    <MdDeleteForever className="text-gray-600 hover:text-white" size={24} />
+  </button>
+)}
     </div>
   );
 };
