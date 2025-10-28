@@ -2,121 +2,133 @@
   {
     "id": 1,
     "name": "Dr. Mehedi Hasan",
-    "image": "https://i.ibb.co.com/TBmyt24Q/1.jpg",
+    "image": "https://i.ibb.co.com/VYy3bpL4/1.jpg",
     "education": "MBBS, MD",
     "speciality": "Cardiologist",
     "details": "Expert in heart-related diseases and surgeries. Provides preventive care and advanced treatment plans for cardiac patients.",
     "experience": "10 years",
-    "registrationNumber": "REG-001"
+    "registrationNumber": "REG-001",
+    "available_days": ["Sun", "Mon", "Wed", "Thu"]
   },
   {
     "id": 2,
     "name": "Dr. Ayesha Rahman",
-    "image": "https://i.ibb.co.com/99T899zF/2.jpg",
+    "image": "https://i.ibb.co.com/B2T2CMWd/2.jpg",
     "education": "MBBS, MS",
     "speciality": "Neurologist",
     "details": "Specializes in neurological disorders. Offers comprehensive care for conditions like stroke, epilepsy, and migraines.",
     "experience": "8 years",
-    "registrationNumber": "REG-002"
+    "registrationNumber": "REG-002",
+    "available_days": ["Mon", "Tue", "Thu", "Sat"]
   },
   {
     "id": 3,
     "name": "Dr. Tanvir Islam",
-    "image": "https://i.ibb.co.com/XxXPNvCL/3.jpg",
+    "image": "https://i.ibb.co.com/M5Cq76Mx/3.jpg",
     "education": "MBBS, MD",
     "speciality": "Pediatrician",
     "details": "Provides care for infants and children. Focuses on preventive healthcare, vaccinations, and growth monitoring.",
     "experience": "12 years",
-    "registrationNumber": "REG-003"
+    "registrationNumber": "REG-003",
+    "available_days": ["Sun", "Tue", "Wed", "Fri"]
   },
   {
     "id": 4,
     "name": "Dr. Fatema Noor",
-    "image": "https://i.ibb.co.com/bjznVbzM/4.jpg",
+    "image": "https://i.ibb.co.com/8LkFKNZC/4.jpg",
     "education": "MBBS, MS",
     "speciality": "Gynecologist",
     "details": "Expert in women's health and maternity care. Offers guidance on reproductive health, pregnancy, and hormonal issues.",
     "experience": "9 years",
-    "registrationNumber": "REG-004"
+    "registrationNumber": "REG-004",
+    "available_days": ["Sun", "Mon", "Wed", "Fri"]
   },
   {
     "id": 5,
     "name": "Dr. Imran Hossain",
-    "image": "https://i.ibb.co.com/211tpD7d/5.jpg",
+    "image": "https://i.ibb.co.com/0pdgs8Jt/5.jpg",
     "education": "MBBS, MD",
     "speciality": "Dermatologist",
     "details": "Skin, hair, and nail specialist. Treats conditions like acne, eczema, psoriasis, and conducts cosmetic dermatology procedures.",
     "experience": "7 years",
-    "registrationNumber": "REG-005"
+    "registrationNumber": "REG-005",
+    "available_days": ["Tue", "Wed", "Thu", "Sat"]
   },
   {
     "id": 6,
     "name": "Dr. Sabrina Akter",
-    "image": "https://i.ibb.co.com/Hpb3VTwC/6.jpg",
+    "image": "https://i.ibb.co.com/zhXL8TN3/6.jpg",
     "education": "MBBS, MS",
     "speciality": "ENT Specialist",
     "details": "Ear, nose, and throat care expert. Provides treatments for sinus problems, hearing issues, and voice disorders.",
     "experience": "11 years",
-    "registrationNumber": "REG-006"
+    "registrationNumber": "REG-006",
+    "available_days": ["Sun", "Mon", "Thu", "Fri"]
   },
   {
     "id": 7,
     "name": "Dr. Shakib Al Hasan",
-    "image": "https://i.ibb.co.com/gZy0yY10/7.jpg",
+    "image": "https://i.ibb.co.com/1tZnPpz5/7.jpg",
     "education": "MBBS, MD",
     "speciality": "Orthopedic",
     "details": "Bone and joint specialist. Expert in fracture management, sports injuries, and joint replacement surgeries.",
     "experience": "10 years",
-    "registrationNumber": "REG-007"
+    "registrationNumber": "REG-007",
+    "available_days": ["Mon", "Wed", "Thu", "Sat"]
   },
   {
     "id": 8,
     "name": "Dr. Farhana Khatun",
-    "image": "https://i.ibb.co.com/qFnW7bjX/8.jpg",
+    "image": "https://i.ibb.co.com/DPBCyXMT/8.jpg",
     "education": "MBBS, MS",
     "speciality": "Ophthalmologist",
     "details": "Expert in eye care and surgery. Provides treatment for cataracts, glaucoma, and vision correction procedures.",
     "experience": "6 years",
-    "registrationNumber": "REG-008"
+    "registrationNumber": "REG-008",
+    "available_days": ["Sun", "Tue", "Wed", "Fri"]
   },
   {
     "id": 9,
     "name": "Dr. Rashidul Islam",
-    "image": "https://i.ibb.co.com/MkhYt5Y8/9.jpg",
+    "image": "https://i.ibb.co.com/B5F8CKVc/9.jpg",
     "education": "MBBS, MD",
     "speciality": "Psychiatrist",
     "details": "Mental health and counseling expert. Offers therapy and medication management for depression, anxiety, and stress disorders.",
     "experience": "8 years",
-    "registrationNumber": "REG-009"
+    "registrationNumber": "REG-009",
+    "available_days": ["Mon", "Tue", "Thu", "Fri"]
   },
   {
     "id": 10,
     "name": "Dr. Nabila Sultana",
-    "image": "https://i.ibb.co.com/whCVSVPq/10.jpg",
+    "image": "https://i.ibb.co.com/hF8HbXbZ/10.jpg",
     "education": "MBBS, MS",
     "speciality": "Endocrinologist",
     "details": "Specialist in hormone-related disorders. Provides care for diabetes, thyroid issues, and metabolic conditions.",
     "experience": "7 years",
-    "registrationNumber": "REG-010"
+    "registrationNumber": "REG-010",
+    "available_days": ["Sun", "Wed", "Thu", "Sat"]
   },
   {
     "id": 11,
     "name": "Dr. Hasan Mahmud",
-    "image": "https://i.ibb.co.com/q3CQtcLC/11.jpg",
+    "image": "https://i.ibb.co.com/FkVfDdKN/11.jpg",
     "education": "MBBS, MD",
     "speciality": "Gastroenterologist",
     "details": "Expert in digestive system diseases. Offers treatment for ulcers, liver disorders, and gastrointestinal issues.",
     "experience": "9 years",
-    "registrationNumber": "REG-011"
+    "registrationNumber": "REG-011",
+    "available_days": ["Mon", "Wed", "Thu", "Fri"]
   },
   {
     "id": 12,
     "name": "Dr. Rukhsana Begum",
-    "image": "https://i.ibb.co.com/DH6z6w4f/12.jpg",
+    "image": "https://i.ibb.co.com/wFp4Kffz/12.jpg",
     "education": "MBBS, MS",
     "speciality": "Pulmonologist",
     "details": "Specialist in lung and respiratory care. Treats asthma, COPD, and provides critical care for respiratory illnesses.",
     "experience": "10 years",
-    "registrationNumber": "REG-012"
+    "registrationNumber": "REG-012",
+    "available_days": ["Sun", "Mon", "Wed", "Sat"]
   }
 ]
