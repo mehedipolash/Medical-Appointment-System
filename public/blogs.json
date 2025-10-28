@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is React Router and why do we use it?",
+    "answer": "React Router is a standard library for routing in React. It allows you to create single-page applications with navigation without refreshing the page. It helps in managing multiple views in a React application."
+  },
+  {
+    "id": 2,
+    "question": "What is the difference between BrowserRouter and HashRouter?",
+    "answer": "BrowserRouter uses the HTML5 history API to keep the UI in sync with the URL, giving clean URLs. HashRouter uses the URL hash (window.location.hash) to simulate different pages and is useful when the server cannot handle dynamic requests."
+  },
+  {
+    "id": 3,
+    "question": "What is the purpose of the 'Link' component in React Router?",
+    "answer": "The 'Link' component is used to navigate between routes in a React application without refreshing the page. It replaces traditional anchor tags for internal navigation."
+  },
+  {
+    "id": 4,
+    "question": "What is the 'useParams' hook in React Router?",
+    "answer": "The 'useParams' hook returns an object of key/value pairs of URL parameters. It is used to access dynamic segments of the URL in a component."
+  },
+  {
+    "id": 5,
+    "question": "What is the 'useLoaderData' hook in React Router?",
+    "answer": "The 'useLoaderData' hook is used to access the data returned by a route loader. It allows you to fetch data for a route before rendering the component."
+  },
+  {
+    "id": 6,
+    "question": "How do you implement nested routes in React Router?",
+    "answer": "Nested routes are implemented by defining child routes inside a parent route using the 'children' property in the route configuration. The parent component should include an <Outlet> to render the child routes."
+  },
+  {
+    "id": 7,
+    "question": "How can you handle 404 pages in React Router?",
+    "answer": "A 404 page can be handled by using an 'errorElement' or a route with path='*'. This will render a component when no other routes match."
+  },
+  {
+    "id": 8,
+    "question": "What is the difference between 'index' route and normal route?",
+    "answer": "An 'index' route is the default child route of a parent route. It renders when the parent route matches exactly and there are no other child routes specified."
+  }
+]
