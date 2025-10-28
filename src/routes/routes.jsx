@@ -11,7 +11,7 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
-    errorElement: ErrorPage,
+    errorElement: <ErrorPage />, // Fixed: Use JSX element instead of function reference
     children: [
       {
         index: true,

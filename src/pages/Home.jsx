@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Hero from "../component/Hero";
 import DoctorsContainer from "../component/DoctorsContainer";
 import { useLoaderData } from "react-router";
@@ -51,9 +51,28 @@ const Home = () => {
     { count: 300, label: "Total Staff", icon: staffIcon },
   ];
 
+ 
+   const [doctors,setDoctors]=useState(data)
+
+
+  // search handeling btn
+  const handleSearch = (e, text) => {
+     e.preventDefault();
+    if (text === '') {
+      setDoctors(searchedDoctors);
+    }
+    const searchedDoctors = data.filter(
+      doctor =>
+        // ? means optional chaining
+        doctor?.name?.toLowerCase().includes(text.toLowerCase()) ||
+        doctor?.speciality?.toLowerCase().includes(text.toLowerCase())
+    );
+    setDoctors(searchedDoctors);
+  };
+
   return (
     <div>
-      <Hero />
+      <Hero handleSearch={handleSearch} />
 
       {/* Doctors Section */}
       <div className="text-center space-y-2 mb-8">
@@ -66,7 +85,7 @@ const Home = () => {
         </p>
       </div>
 
-      <DoctorsContainer doctors={data} />
+      <DoctorsContainer doctors={doctors} />
 
       {/* Stats Section */}
       <div className="py-16 px-4 bg-pink-50/50">

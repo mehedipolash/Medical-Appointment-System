@@ -8,7 +8,8 @@
     "details": "Expert in heart-related diseases and surgeries. Provides preventive care and advanced treatment plans for cardiac patients.",
     "experience": "10 years",
     "registrationNumber": "REG-001",
-    "available_days": ["Sun", "Mon", "Wed", "Thu"]
+    "available_days": ["Sun", "Mon", "Wed", "Thu"],
+    "fee": 120
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "details": "Specializes in neurological disorders. Offers comprehensive care for conditions like stroke, epilepsy, and migraines.",
     "experience": "8 years",
     "registrationNumber": "REG-002",
-    "available_days": ["Mon", "Tue", "Thu", "Sat"]
+    "available_days": ["Mon", "Tue", "Thu", "Sat"],
+    "fee": 100
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "details": "Provides care for infants and children. Focuses on preventive healthcare, vaccinations, and growth monitoring.",
     "experience": "12 years",
     "registrationNumber": "REG-003",
-    "available_days": ["Sun", "Tue", "Wed", "Fri"]
+    "available_days": ["Sun", "Tue", "Wed", "Fri"],
+    "fee": 90
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "details": "Expert in women's health and maternity care. Offers guidance on reproductive health, pregnancy, and hormonal issues.",
     "experience": "9 years",
     "registrationNumber": "REG-004",
-    "available_days": ["Sun", "Mon", "Wed", "Fri"]
+    "available_days": ["Sun", "Mon", "Wed", "Fri"],
+    "fee": 95
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "details": "Skin, hair, and nail specialist. Treats conditions like acne, eczema, psoriasis, and conducts cosmetic dermatology procedures.",
     "experience": "7 years",
     "registrationNumber": "REG-005",
-    "available_days": ["Tue", "Wed", "Thu", "Sat"]
+    "available_days": ["Tue", "Wed", "Thu", "Sat"],
+    "fee": 85
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "details": "Ear, nose, and throat care expert. Provides treatments for sinus problems, hearing issues, and voice disorders.",
     "experience": "11 years",
     "registrationNumber": "REG-006",
-    "available_days": ["Sun", "Mon", "Thu", "Fri"]
+    "available_days": ["Sun", "Mon", "Thu", "Fri"],
+    "fee": 80
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "details": "Bone and joint specialist. Expert in fracture management, sports injuries, and joint replacement surgeries.",
     "experience": "10 years",
     "registrationNumber": "REG-007",
-    "available_days": ["Mon", "Wed", "Thu", "Sat"]
+    "available_days": ["Mon", "Wed", "Thu", "Sat"],
+    "fee": 110
   },
   {
     "id": 8,
@@ -85,7 +92,8 @@
     "details": "Expert in eye care and surgery. Provides treatment for cataracts, glaucoma, and vision correction procedures.",
     "experience": "6 years",
     "registrationNumber": "REG-008",
-    "available_days": ["Sun", "Tue", "Wed", "Fri"]
+    "available_days": ["Sun", "Tue", "Wed", "Fri"],
+    "fee": 90
   },
   {
     "id": 9,
@@ -96,7 +104,8 @@
     "details": "Mental health and counseling expert. Offers therapy and medication management for depression, anxiety, and stress disorders.",
     "experience": "8 years",
     "registrationNumber": "REG-009",
-    "available_days": ["Mon", "Tue", "Thu", "Fri"]
+    "available_days": ["Mon", "Tue", "Thu", "Fri"],
+    "fee": 100
   },
   {
     "id": 10,
@@ -107,7 +116,8 @@
     "details": "Specialist in hormone-related disorders. Provides care for diabetes, thyroid issues, and metabolic conditions.",
     "experience": "7 years",
     "registrationNumber": "REG-010",
-    "available_days": ["Sun", "Wed", "Thu", "Sat"]
+    "available_days": ["Sun", "Wed", "Thu", "Sat"],
+    "fee": 95
   },
   {
     "id": 11,
@@ -118,7 +128,8 @@
     "details": "Expert in digestive system diseases. Offers treatment for ulcers, liver disorders, and gastrointestinal issues.",
     "experience": "9 years",
     "registrationNumber": "REG-011",
-    "available_days": ["Mon", "Wed", "Thu", "Fri"]
+    "available_days": ["Mon", "Wed", "Thu", "Fri"],
+    "fee": 105
   },
   {
     "id": 12,
@@ -129,6 +140,7 @@
     "details": "Specialist in lung and respiratory care. Treats asthma, COPD, and provides critical care for respiratory illnesses.",
     "experience": "10 years",
     "registrationNumber": "REG-012",
-    "available_days": ["Sun", "Mon", "Wed", "Sat"]
+    "available_days": ["Sun", "Mon", "Wed", "Sat"],
+    "fee": 100
   }
 ]

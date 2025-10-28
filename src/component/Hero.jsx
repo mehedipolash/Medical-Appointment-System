@@ -2,7 +2,9 @@ import { useState } from "react";
 import bannerImg from "../assets/bannerImg.png";
 import Button from "./ui/Button";
 
-const Hero = () => {
+const Hero = ({ handleSearch }) => {
+  const [searchText, setSearchText] = useState("");
+
   return (
     <div className="py-12">
       <div className="mb-5">
@@ -24,13 +26,22 @@ const Hero = () => {
           and receive quality care you can trust.
         </p>
 
-        <form className="flex flex-col md:flex-row justify-center items-center gap-4 mb-4 md:px-24">
+        <form
+          onSubmit={(e) => {
+            handleSearch(e, searchText);
+            setSearchText(""); // ✅ clears after search
+          }}
+          className="flex flex-col md:flex-row justify-center items-center gap-4 mb-4 md:px-24"
+        >
           <div className="flex flex-col md:flex-row gap-4 w-full md:w-auto justify-center">
             <input
+              value={searchText}
+              onChange={(e) => setSearchText(e.target.value)}
               type="text"
               placeholder="search doctor by name"
               className="bg-white border border-gray-300 rounded shadow-md w-full md:w-80 h-12 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
+
             <Button type="submit" label="search" />
           </div>
         </form>
