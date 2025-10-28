@@ -39,7 +39,7 @@ const DoctorCard = ({ doctor }) => {
         <div className="card-actions justify-center mt-auto pt-4">
           <Link to={`/doctordetails/${id}`} className="w-full flex justify-center">
             <button className="relative inline-block px-6 py-3 font-medium group cursor-pointer w-full max-w-xs">
-              <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+              <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-1 group-hover:translate-y-1"></span>
               <span className="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
               <span className="relative text-black group-hover:text-white text-sm font-medium">
                 View Details
